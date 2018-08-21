@@ -1,0 +1,307 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:800');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
+ @import url('https://fonts.googleapis.com/css?family=Montserrat');
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+  
+   
+   /*PAGE 1*/  
+       #top{ /*this is the logo*/ 
+       color:#0d2b5b;
+       font-size:17px; 
+   font-family: 'Nanum Gothic', sans-serif;
+   }
+   
+  #link{ /*links on the dropdown toggle*/ 
+           color:#0d2b5b;
+          font-family: 'Nanum Gothic', sans-serif;
+  }
+#book{ /*this is the jumbotron*/
+height:550px;
+    background-image:url(../img/raft.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+        }
+        
+#book h1{ /*this is the jumbotron*/
+    font-size: 50px;
+font-family: 'Playfair Display', serif;
+    color:#f4f4f4;
+}
+#book p{ /*this is the jumbotron*/
+    font-size: 30px;
+font-family: 'Playfair Display', serif;
+    color:#f4f4f4;
+     padding-bottom:20px;
+} 
+    
+    
+    #text{/*the text writing. Come with...*/
+        padding-bottom:80px;
+    }
+      #text h5{ /*the text writing. Come with...*/
+        font-family: 'Playfair Display', serif;
+          color:#0d2b5b;
+          font-size:25px;
+    }
+    
+  
+    #comp h1{/*why choose seabreeze*/
+        font-family: 'Nanum Gothic', sans-serif; 
+       color:#0d2b5b;
+       font-size:25px; 
+    }
+    #comp h5{ /*why choose seabreeze*/
+     font-family: 'Nanum Gothic', sans-serif; 
+     color:#0d2b5b;
+      font-size:20px;
+    }
+    
+     #comp p{ /*why choose seabreeze*/
+       font-family: 'Nanum Gothic', sans-serif; 
+       color:#5e6570;
+       font-size:15px;
+    }
+    
+     #center{ /*Shore Destinations*/
+         padding:40px 0px 30px;
+     }
+ #center h1{  /*Shore Destinations*/
+     font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+       color:#0d2b5b;
+} 
+
+ #regions h5{ /*the 3 desitnation cards*/
+           font-size: 30px;
+font-family: 'Nanum Gothic', sans-serif;
+    color:#0d2b5b;
+    }
+    
+    #connect{/*email & social media links*/
+        background-color: #0d2b5b;
+        height:200px;
+        margin-top:70px;
+        margin-bottom:70px;
+    }
+    
+    #connect h1{ /*the 3 desitnation cards*/
+        color:#f4f4f4;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    #social{ /*social media links*/
+        border-right:solid;
+        color:#f4f4f4;
+    }
+    
+  #fmodal{
+      background-color:#4286f4;
+      font-size: 20px;
+      font-family: 'Playfair Display', serif;
+      color:#f4f4f4;
+  }
+
+/*PAGE 2*/
+
+.ports, .overview, .itiniery, .exist, .new{ /*the 3 BUTTONS*/
+    background-color: #0d2b5b;
+    border: none;
+    color: white;
+    padding: 9px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#car h5{
+     font-size: 50px;
+font-family: 'Playfair Display', serif;
+    color:#f4f4f4;
+}
+
+#car p{ /*this is the jumbotron*/
+    font-size: 30px;
+font-family: 'Playfair Display', serif;
+    color:#f4f4f4;
+} 
+
+#overview {
+    margin-top:40px;
+}
+
+#overview h1,h5{ /*unforegettably... Start Planning*/
+    font-family: 'Montserrat', sans-serif;
+    color:#0d2b5b;
+}
+
+
+#overview p{ /*unforegettably... Start Planning*/
+   font-family: 'Montserrat', sans-serif;
+       color:#232628;
+       font-size:18px;
+}
+
+/*PORTS PAGE*/
+
+#ports{
+    margin-top: 40px;
+}
+
+#portp{ /*this is the jumbotron*/
+   height:500px;
+    background-image:url(../img/jamport.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center; 
+    }
+    
+    #portp h1{ /*this is the jumbotron*/
+        font-size: 80px;
+font-family: 'Playfair Display', serif;
+    color:#f4f4f4;
+    }
+    
+    #ports h1{ /*Jamaica is Calling - Port Antonio*/
+    font-family: 'Montserrat', sans-serif;
+    color:#0d2b5b;
+    font-size:40px;
+}
+
+ #ports h5{ /*Jamaica is Calling - Port Antonio*/
+    font-family: 'Montserrat', sans-serif;
+    color:#0d2b5b;
+    font-size:30px;
+}
+
+#ports p{ /*Jamaica is Calling - Port Antonio*/
+   font-family: 'Montserrat', sans-serif;
+       color:#232628;
+       font-size:18px;
+}
+    
+ 
+
+ /*MEMBERSHIP PAGE*/
+ #loginm{
+     height:200px;
+     background-color: white;
+    /* background-image:url(../img/user.png);*/
+    /* background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position:center center; */
+ }
+ #register{ /*this is jumbotron*/
+  background-image:url(../img/sky.jpg);
+         height:200px;
+         background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center; 
+ }
+ 
+ #register h1{ /*this is jumbotron*/
+       font-size: 50px;
+font-family: 'Playfair Display', serif;
+    color:#f4f4f4;
+ }
+ 
+ #mySelect, #mySelect2{
+     height:50px;
+          }
+     
+     #order li{
+       font-family: 'Montserrat', sans-serif;
+     font-size:15px;
+     color:#0d2b5b; 
+     font-weight:bold;
+     }
+ 
+ #welcome {
+     border-bottom: solid 3px #0d2b5b;
+     margin-bottom: 40px;
+     font-family: 'Montserrat', sans-serif;
+     font-size:15px;
+     color:#0d2b5b;
+ }
+ 
+ #congrats{
+     background-color: #0d2b5b;
+     color:white;
+     
+ }
+ 
+ #congrats p{
+    font-family: 'Roboto', sans-serif;
+       color:white;
+       font-size:17px; 
+ }
+ 
+  #congrats h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+       color:white;
+ }
+ 
+#footer{
+    border-top: solid;
+    margin-top: 40px;
+}
+  #footer{
+       height:200px;
+    font-family: 'Roboto', sans-serif;
+    color:#0d2b5b;
+    }
+    
+    #footer ul{
+        list-style-type: none;
+    }
+   
+    #footer a{
+           font-family: 'Roboto', sans-serif;
+    color:#0d2b5b;
+    } 
+    
+  /* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) 
+{ .collapse{
+    display:flex;
+    justify-content:space-between;
+}
+    }  
+    
+   
+   
+   /* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+
+    #book h1{
+        font-size: 30px;
+        }
+        
+        #social{
+            align-self:end;
+        }
+        
+        #connect h1{
+            font-size:20px;
+        }
+    #overview h1{
+      font-size: 30px;  
+    } 
+    
+    #register h1{
+        font-size: 30px;
+    }
+    
+    #car h5{
+       font-size: 30px; 
+    }
+}       
+
