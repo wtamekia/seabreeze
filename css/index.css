@@ -5,7 +5,7 @@
   @import url('https://fonts.googleapis.com/css?family=Roboto:300');
   
    
-   /*PAGE 1*/  
+   /*NAV BAR*/  
        #top{ /*this is the logo*/ 
        color:#0d2b5b;
        font-size:17px; 
@@ -15,8 +15,10 @@
   #link{ /*links on the dropdown toggle*/ 
            color:#0d2b5b;
           font-family: 'Nanum Gothic', sans-serif;
-  }
-#book{ /*this is the jumbotron*/
+  }  /*NAV BAR END*/ 
+  
+   /*INDEX PAGE / PAGE 1*/ 
+  #book{ /*this is the jumbotron*/
 height:550px;
     background-image:url(../img/raft.jpg);
     background-repeat: no-repeat;
@@ -27,11 +29,12 @@ height:550px;
 #book h1{ /*this is the jumbotron*/
     font-size: 50px;
 font-family: 'Playfair Display', serif;
+font-weight: bold;
     color:#f4f4f4;
 }
 #book p{ /*this is the jumbotron*/
     font-size: 30px;
-font-family: 'Playfair Display', serif;
+ font-family: 'Nanum Gothic', sans-serif; 
     color:#f4f4f4;
      padding-bottom:20px;
 } 
@@ -52,13 +55,13 @@ font-family: 'Playfair Display', serif;
        color:#0d2b5b;
        font-size:25px; 
     }
-    #comp h5{ /*why choose seabreeze*/
+    #comp h5{ /*dedicated team, etc*/
      font-family: 'Nanum Gothic', sans-serif; 
      color:#0d2b5b;
       font-size:20px;
     }
     
-     #comp p{ /*why choose seabreeze*/
+     #comp p{ /*dedicated team, etc*/
        font-family: 'Nanum Gothic', sans-serif; 
        color:#5e6570;
        font-size:15px;
@@ -68,14 +71,14 @@ font-family: 'Playfair Display', serif;
          padding:40px 0px 30px;
      }
  #center h1{  /*Shore Destinations*/
-     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+  font-family: 'Nanum Gothic', sans-serif;
+    font-size: 37px;
        color:#0d2b5b;
 } 
 
  #regions h5{ /*the 3 desitnation cards*/
            font-size: 30px;
-font-family: 'Nanum Gothic', sans-serif;
+ font-family: 'Nanum Gothic', sans-serif;
     color:#0d2b5b;
     }
     
@@ -89,7 +92,7 @@ font-family: 'Nanum Gothic', sans-serif;
     #connect h1{ /*the 3 desitnation cards*/
         color:#f4f4f4;
         font-size: 25px;
-        font-family: 'Montserrat', sans-serif;
+      font-family: 'Nanum Gothic', sans-serif;
     }
     
     #social{ /*social media links*/
@@ -100,7 +103,7 @@ font-family: 'Nanum Gothic', sans-serif;
   #fmodal{
       background-color:#4286f4;
       font-size: 20px;
-      font-family: 'Playfair Display', serif;
+     font-family: 'Nanum Gothic', sans-serif;
       color:#f4f4f4;
   }
 
@@ -109,8 +112,8 @@ font-family: 'Nanum Gothic', sans-serif;
 .ports, .overview, .itiniery, .exist, .new{ /*the 3 BUTTONS*/
     background-color: #0d2b5b;
     border: none;
-    color: white;
-    padding: 9px 28px;
+    color: #f4f4f4;
+    padding: 9px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -118,6 +121,7 @@ font-family: 'Nanum Gothic', sans-serif;
     margin: 4px 2px;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
+    width:130px;
 }
 
 #car h5{
@@ -128,7 +132,7 @@ font-family: 'Playfair Display', serif;
 
 #car p{ /*this is the jumbotron*/
     font-size: 30px;
-font-family: 'Playfair Display', serif;
+font-family: 'Nanum Gothic', sans-serif; 
     color:#f4f4f4;
 } 
 
@@ -156,7 +160,7 @@ font-family: 'Playfair Display', serif;
 
 #portp{ /*this is the jumbotron*/
    height:500px;
-    background-image:url(../img/jamport.jpg);
+    background-image:url(../img/water.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center center; 
@@ -164,8 +168,9 @@ font-family: 'Playfair Display', serif;
     
     #portp h1{ /*this is the jumbotron*/
         font-size: 80px;
-font-family: 'Playfair Display', serif;
-    color:#f4f4f4;
+font-family: 'Nanum Gothic', sans-serif; 
+    color:#0d2b5b;
+    font-weight: bold;
     }
     
     #ports h1{ /*Jamaica is Calling - Port Antonio*/
@@ -185,8 +190,12 @@ font-family: 'Playfair Display', serif;
        color:#232628;
        font-size:18px;
 }
+
+
     
- 
+ #anton{
+     margin-top: 50px;
+ }
 
  /*MEMBERSHIP PAGE*/
  #loginm{
@@ -281,12 +290,53 @@ font-family: 'Playfair Display', serif;
    /* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
 
-    #book h1{
+    #book h1{ /* jumbotron on page 1*/
+        font-family: 'Playfair Display', serif;
         font-size: 30px;
+         text-align: center;
+            }
+       #book p{ /* jumbotron on page 1*/
+        font-size: 20px;
+        text-align: center;
+            }
+        
+        #car h5{ /* carousel on page 2*/
+       /*font-size: 25px; */
+       /*font-family: 'Nanum Gothic', sans-serif; */
+       display: none;
+    }
+    
+        #car p{ /* carousel on page 2*/
+       /*font-size: 20px; */
+       display: none;
+    }
+      
+        #car img{  /* carousel on page 2*/
+            height:200px;
         }
         
-        #social{
-            align-self:end;
+        #portp{ /* jumbotron on port page*/
+          height: 200px;   
+        } 
+        #portp h1{ /* jumbotron on port page*/
+          font-size: 35px;   
+        }
+        
+        #ports h5{
+           font-size: 35px;
+           text-align: center;
+        }
+       #ports p{
+           font-size: 18px;
+           text-align: center;
+        } 
+        
+        #ports img{
+            width:350px;
+        }
+        
+    #social{
+       align-self:end;
         }
         
         #connect h1{
@@ -300,8 +350,7 @@ font-family: 'Playfair Display', serif;
         font-size: 30px;
     }
     
-    #car h5{
-       font-size: 30px; 
-    }
+    
+    
 }       
 
